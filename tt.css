@@ -1,0 +1,136 @@
+/* Common styles for all sections */
+body {
+    background-color: #b8c3ca;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #bf1223ec;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    background-color: #ef2e41;
+    padding: 8px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 20px;
+}
+
+nav a:hover {
+    background-color: #ef2e41;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+
+footer {
+    background-color: #ef2e41;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Gallery section styles */
+#gallery {
+    height: 100vh;
+    background-color: #b8c3ca;
+    /* background-color: #fff; */
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    background-color: #b8c3ca;
+
+    border: 1px solid #ddd;
+    /* border-radius: 50%; */
+}
+
+/* About section styles */
+#about {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    /* border-radius: 5%; */
+}
+
+#about img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+/* Contact section styles */
+#contact {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #4a20aa;
+}
+
+#contact form {
+    max-width: 400px;
+}
+
+#contact form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#contact form input[type="text"],
+#contact form input[type="email"],
+#contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#contact form textarea {
+    resize: vertical;
+}
+
+#contact form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#contact form input[type="submit"]:hover {
+    background-color: #555;
+}
