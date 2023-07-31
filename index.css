@@ -44,17 +44,10 @@ footer {
     position: relative;
 }
 
-/* Gallery section styles */
-/* section {
-    display: flex; 
-    flex-direction: column;
-
-}  */
 #gallery {
     height: 100vh;
     overscroll-behavior: 100px;
     background-color: #b8c3ca;
-    /* background-color: #fff; */
 }
 
 #gallery {
@@ -77,20 +70,17 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    position: bottom;
+    font-size: 23px;
 }
 /* Contact section styles */
 
 #contact {
-    /* background-color: #f0f0f0; */
+    background-color: #f0f0f0;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 8px;
     margin: 20px;
-    max-width: 400px;
-    /* position: relative; */
-    order: 2;
+    text-align: center;
   }
   
   #contact h2 {
